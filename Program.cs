@@ -35,4 +35,30 @@
         double result = num1 * num2;
         return result;
     }
+
+    public static int AbsoluteValue(int num)
+    {
+        if (num == 0)
+        {
+            return 0;
+        }
+        else if (num < 0)
+        {
+            return -num;
+        }
+        return num;
+    }
+
+    public static double AbsoluteValueDouble(double num)
+    {
+        if (num == 0)
+        {
+            return 0;
+        }
+        else if (num < 0)
+        {
+            return -num;
+        }
+        return num;
+    }
 }
