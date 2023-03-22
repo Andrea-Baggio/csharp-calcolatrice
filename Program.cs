@@ -6,7 +6,7 @@
         return result;
     }
 
-    public static double DoubleSum(double num1, double num2)
+    public static double Sum(double num1, double num2)
     {
         double result = num1 + num2;
         return result;
@@ -18,7 +18,7 @@
         return result;
     }
 
-    public static double DifferenceDouble(double num1, double num2)
+    public static double Difference(double num1, double num2)
     {
         double result = num1 / num2;
         return result;
@@ -30,7 +30,7 @@
         return result;
     }
 
-    public static double MultiplicationDouble(double num1, double num2)
+    public static double Multiplication(double num1, double num2)
     {
         double result = num1 * num2;
         return result;
@@ -49,7 +49,7 @@
         return num;
     }
 
-    public static double AbsoluteValueDouble(double num)
+    public static double AbsoluteValue(double num)
     {
         if (num == 0)
         {
@@ -75,7 +75,7 @@
         return 0;
     }
 
-    public static double MinimumDouble(double num1, double num2)
+    public static double Minimum(double num1, double num2)
     {
         if (num1 > num2)
         {
@@ -101,7 +101,7 @@
         return 0;
     }
 
-    public static double MaximumDouble(double num1, double num2)
+    public static double Maximum(double num1, double num2)
     {
         if (num1 > num2)
         {
