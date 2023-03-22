@@ -1,4 +1,4 @@
-﻿public class CalcoliHelper
+﻿public static class CalcoliHelper
 {
     public static int Sum(int num1, int num2)
     {
@@ -82,6 +82,10 @@
             return num2;
         }
         else if (num1 < num2)
+        {
+            return num1;
+        }
+        else if (num1 == num2)
         {
             return num1;
         }
